@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-size: 18px;
+  font-family: "Kumbh sans", sans-serif;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+}
+
+.one {
+  background-color: white;
+  height: 400px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 1px 7px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  left: 600px;
+  top: 200px;
+}
+
+
+
+
+
+.card {
+  height: 200px;
+}
+
+.card img {
+  width: 320px;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card .victor {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 110px;
+  bottom: 50px;
+}
+
+h3 {
+  font-family: "kumbh sans" sans-serif;
+  font-weight: 400;
+  padding-right: 10px;
+  text-align: center;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  padding-top: 2px;
+  text-align: center;
+}
+
+hr {
+  height: 1px grey;
+  margin-top: 20px;
+}
+
+.vc {
+  margin-top: 0;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+@media (min-width:320px) and (max-width:480px){
+  .one{
+    position: relative;
+    left: 60px;
+    top: 100px;
+  }
+}
